@@ -54,8 +54,7 @@ A custom `TomatoDataset` class handles:
 - Annotation parsing
 - Mask generation
 - Image resizing　to **800 × 800**
-- Optional data augmentation (flip and rotation)
-
+  
 ### Data Augmentation
 - Horizontal flip and rotation were initially evaluated.
 - Rotation augmentation degraded mAP performance.
@@ -82,6 +81,12 @@ A custom `TomatoDataset` class handles:
   - **Training loss:** `0.3673`
   - **Validation bounding box mAP:** `0.6710`
   - **Validation segmentation mask mAP:** `0.6832`
+
+- Best (9th) epoch performance:
+  - **Training loss:** `0.3676`
+  - **Validation bounding box mAP:** `0.6711`
+  - **Validation segmentation mask mAP:** `0.6824`
+
 
 *Note: The loss is computed on the training set, while mAP metrics are evaluated on the validation set.*
 
