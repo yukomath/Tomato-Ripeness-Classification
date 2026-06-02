@@ -68,10 +68,6 @@ Horizontal flip and rotation augmentations were tested during training, but rota
   - Segmentation mask mAP
 
 ### Results
-- Final (10th) epoch performance:
-  - **Training loss:** `0.3673`
-  - **Validation bounding box mAP:** `0.6710`
-  - **Validation segmentation mask mAP:** `0.6832`
 
 - Best (9th) epoch performance:
   - **Training loss:** `0.3676`
