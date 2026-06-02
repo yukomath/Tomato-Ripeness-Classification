@@ -55,10 +55,7 @@ A custom `TomatoDataset` class handles:
 - Image resizing　to **800 × 800**
   
 ### Data Augmentation
-- Horizontal flip and rotation were initially evaluated.
-- Rotation augmentation degraded mAP performance.
-- Horizontal flip showed minimal impact on performance.
-- **As a result, no data augmentation is used in the final model.**
+Horizontal flip and rotation augmentations were tested during training, but rotation reduced mAP and horizontal flipping provided little benefit. Therefore, **no data augmentation** was applied in the final model.
 
 ### Model
 - Pretrained **Mask R-CNN** with a **ResNet-50 FPN** backbone
