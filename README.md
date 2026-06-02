@@ -14,14 +14,6 @@ All project files are available in the following folder:
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-
-<a href="https://colab.research.google.com/github/ユーザー名/リポジトリ名/blob/ブランチ名/ノートブック名.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-<a href="[https://colab.research.google.com/drive/1T378e23B6nI3bIUCm63hTady4dFLfbjg](https://drive.google.com/file/d/1T378e23B6nI3bIUCm63hTady4dFLfbjg/view?usp=sharing)">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" />
-</a>
-
 This notebook prepares the dataset and trains a Mask R-CNN model for tomato ripeness classification.
 
 
