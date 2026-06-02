@@ -79,7 +79,7 @@ Horizontal flip and rotation augmentations were tested during training, but rota
 
 - Training loss and validation mAP are plotted over epochs.
   <img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/119f55da-0292-42bc-a93f-72eb86def7c3" />
-
+Initial experiments were conducted for 20 epochs, but validation performance showed little improvement after epoch 4. Therefore, 10 epochs were used for the final model.
 
 ### Output
 - The best-performing model checkpoint is saved and used for test evaluation and deployment.
