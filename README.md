@@ -9,7 +9,7 @@ All project files are available in the following folder:
 
 ## 1. Data Preparation and Training
 
-**Notebook:** <a href="https://colab.research.google.com/drive/1T378e23B6nI3bIUCm63hTady4dFLfbjg">
+**Notebook:** <a href="[https://colab.research.google.com/drive/1T378e23B6nI3bIUCm63hTady4dFLfbjg](https://drive.google.com/file/d/1T378e23B6nI3bIUCm63hTady4dFLfbjg/view?usp=sharing)">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" />
 </a>
 
