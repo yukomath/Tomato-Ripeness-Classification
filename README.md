@@ -3,7 +3,7 @@
 This project implements a tomato ripeness classification system using Mask R-CNN. The model detects tomatoes in images and classifies them into six ripeness categories. The dataset used is from [Laboro Tomato Dataset](https://github.com/laboroai/LaboroTomato), and the project covers data preparation, model training, evaluation, and a web application for inference.
 
 All project files are available in the following folder:  
-[Project folder (includes all files)](https://drive.google.com/drive/folders/1qake0cdTJMoC7KHj6DBYxGrcsIcrHNlZ?usp=share_link)
+[Project folder (includes all files)](https://drive.google.com/drive/folders/1_Jrn6Hj7yoNsZSFVYinphaWTBfzql0pg?usp=sharing)
 
 
 
