@@ -74,10 +74,8 @@ Horizontal flip and rotation augmentations were tested during training, but rota
   - **Training loss:** `0.3676`
   - **Validation bounding box mAP:** `0.6711`
   - **Validation segmentation mask mAP:** `0.6824`
-  - The model with the highest validation bounding-box mAP is selected as the best model.
 
-
-*Note: The loss is computed on the training set, while mAP metrics are evaluated on the validation set.*
+*Note: The model with the highest validation bounding-box mAP is selected as the best model.　The loss is computed on the training set, while mAP metrics are evaluated on the validation set.*
 
 - Training loss and validation mAP are plotted over epochs.
   <img width="989" height="390" alt="image" src="https://github.com/user-attachments/assets/119f55da-0292-42bc-a93f-72eb86def7c3" />
