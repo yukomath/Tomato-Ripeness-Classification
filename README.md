@@ -156,8 +156,8 @@ Area ratios are computed relative to the resized image resolution (800 × 800 = 
 
 ### Observations
 - The model performs well on **medium and large tomatoes**.
-- Performance on **small objects** is significantly lower, particularly for cherry tomatoes.　However, since small objects occupy only a very small fraction of the image, for the purpose of building a model to classify ripeness, this limitation can be considered minor and may be ignored for now.
-- Small bounding box detection remains a challenge for future improvement if the model is to be extended to fine-grained size or variety classification.  
+- Performance on **small objects** is significantly lower, particularly for cherry tomatoes.　However, since small objects occupy only a very small fraction of the image, for the purpose of building a model to classify ripeness,　this limitation falls outside the primary scope of the current classification task.
+- Small bounding box detection remains a key objective for future iterations if the model is to be extended to fine-grained size or variety classification.  
 
 ## 3. Visual Check
 **Notebook:** <a href="https://colab.research.google.com/drive/16I_pJ5Baph34w2O2cy7T77NDGboPzF7s">
@@ -166,7 +166,7 @@ Area ratios are computed relative to the resized image resolution (800 × 800 = 
 
 This notebook performs a qualitative inspection of the trained model by visualizing prediction results on test images.
 
-Using the **best-performing model obtained during training**, 10 images are randomly sampled from the test dataset and inference results are visualized to assess model behavior beyond numerical metrics.
+Using the **best-performing model obtained during training**, 10 images are randomly sampled from the test dataset. The inference results are visualized to assess model behavior beyond numerical metrics.
 
 ### Visualization Details
 For each selected test image, the following prediction results are overlaid:
@@ -175,7 +175,7 @@ For each selected test image, the following prediction results are overlaid:
 - Predicted class labels
 - Confidence scores
 
-All images are resized to **800 × 800**, consistent with the training and evaluation settings. Only predictions above a predefined confidence threshold are displayed.
+All images are resized to **800 × 800 px**, consistent with the training and evaluation settings. Only predictions above a predefined confidence threshold are displayed.
 
 <img width="300" alt="Unknown" src="https://github.com/user-attachments/assets/cc9825ea-afd7-401b-a3ac-de4b295dd448" />
 <img width="300" alt="Unknown-1" src="https://github.com/user-attachments/assets/cf0db4ba-f9b2-4edc-8d29-65a371a0d8ed" />
@@ -193,9 +193,9 @@ All images are resized to **800 × 800**, consistent with the training and evalu
 
 
 Observations from Visual Inspection
-- **Small tomatoes are sometimes missed**, consistent with the lower AP observed for small objects in the quantitative evaluation.  
+- **Small tomatoes are occasionally missed**, consistent with the lower AP observed for small objects in the quantitative evaluation.  
 - **Ripeness stages are generally predicted correctly**, but in some images both regular (b_*) and cherry (l_*) tomatoes appear together, making it difficult to clearly distinguish tomato type.  
-- To build a model that reliably classifies **both ripeness and tomato type (regular vs cherry)** in mixed images, further improvements may be needed, such as handling small objects more accurately and incorporating type-specific features.
+- To build a model that reliably classifies **both ripeness and tomato type (regular vs cherry)** in mixed environments, further improvements may be needed, such as handling small objects more accurately and incorporating type-specific features.
 
 
 ## 4. Web App
