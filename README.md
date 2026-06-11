@@ -48,7 +48,7 @@ A custom `TomatoDataset` class handles:
 - Image loading and preprocessing
 - Annotation parsing
 - Mask generation
-- Image resizing　to **800 × 800 px**
+- Image resizing to **800 × 800 px**
   
 ### Data Augmentation
 Horizontal flip and rotation augmentations were tested during training, but rotation reduced mean Average Precision (mAP) and horizontal flipping provided little benefit. As a result, **no data augmentation** was applied in the final model.
