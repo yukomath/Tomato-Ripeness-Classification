@@ -37,7 +37,6 @@ Six ripeness classes for regular (`b`) and cherry (`l`) tomatoes:
 <img width="6288" height="3992" alt="laboro_tomato_exp2" src="https://github.com/user-attachments/assets/ce91bf0f-e9c0-49a0-bb19-8366f62f5063" />
 [Image Resources](https://github.com/laboroai/LaboroTomato?tab=readme-ov-file)
 
-
 ### Dataset Split
 - 80% training / 20% validation
 - Fixed random seed for reproducibility
