@@ -58,10 +58,10 @@ Horizontal flip and rotation augmentations were tested during training, but rota
 - Classification and mask heads modified for 6 ripeness classes
 
 ### Training
-- Training is performed for **10 epochs**.
+- The model is trained for **10 epochs**.
 - Optimizer: SGD with momentum and weight decay
 - Learning rate scheduler: StepLR
-- Checkpointing system to resume training and save the best-performing model
+- A checkpointing system to utilized to resume training and save the best-performing model.
 
 ### Evaluation
 - COCO-style metrics during validation:
