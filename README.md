@@ -107,7 +107,7 @@ This notebook evaluates the trained 6-class Mask R-CNN model on a held-out test 
 
 
 ### Model for Evaluation
-- The best-performing model obtained during training phase is used for evaluation
+- The best-performing model from the training phase is used for test evaluation.
 - Model architecture and configuration are identical to the training phase
 - The model is loaded in inference mode (model.eval())
 
